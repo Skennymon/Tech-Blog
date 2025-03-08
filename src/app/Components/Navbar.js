@@ -8,7 +8,7 @@ function Navbar() {
     const[dropDown, setDropDown] = useState(false);
     
     return (
-        <div className="justify-evenly items-center flex p-8 bg-linear-to-b from-background from-95% to-cyan-100">
+        <div className="justify-evenly items-center flex p-8 bg-linear-to-b from-background from-95% to-stone-600">
             <div className="justify-center items-center flex gap-7">
                 <h2>Kenny Nguyen</h2>
                 <Link href="/">About</Link>
