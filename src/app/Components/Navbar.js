@@ -8,7 +8,7 @@ function Navbar() {
     const[dropDown, setDropDown] = useState(false);
     
     return (
-        <div className="justify-evenly items-center flex p-8 bg-linear-to-b from-background from-90% to-gray-800 rounded-2xl">
+        <div className="justify-evenly items-center flex p-8 bg-linear-to-b from-background from-95% to-cyan-100">
             <div className="justify-center items-center flex gap-7">
                 <h2>Kenny Nguyen</h2>
                 <Link href="/">About</Link>
@@ -23,7 +23,7 @@ function Navbar() {
                     <Image src="/hamburger.svg" width={25} height={25} alt="Hamburger Icon"></Image>
                 </button>
             
-                <ul className={`flex flex-col border gap-4 w-56 absolute top-7 rounded-2xl items-start justify-center p-5 bg-gray-950 border-gray-600 shadow-gray-600 shadow transition-all duration-75 ease-in-out ${dropDown ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}>
+                <ul className={`flex flex-col border gap-4 w-56 absolute top-7 rounded-2xl items-start justify-center p-5 bg-gray-950 border-gray-600 shadow-gray-600 shadow transition-all duration-75 ease-in-out z-1 ${dropDown ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}>
                     <h2 className="font-extrabold">Categories</h2>
                     <Link href="/">Stuff</Link>
                     <Link href="/">Stuff</Link>
