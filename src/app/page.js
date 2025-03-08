@@ -14,6 +14,8 @@ export default function Home() {
     {photo: "/XP-Pen.png", text: "Art", title: "XP-Pen DECO V1", category: "Technology"},
     {photo: "/Fifine.png", text: "Microphone", title: "Fifine K688", category: "Technology"},
     {photo: "/PC.png", text: "My pride and joy", title: "Main Computer", category: "Technology"},
+    {photo: "/LG.png", text: "Main monitor", title: "LG 27GP850-B Ultragear Gaming Monitor", category: "Technology"},
+    {photo: "/Acer.png", text: "Acer S200HQL", title: "Generic Acer", category: "Technology"},
   ]);
 
   
