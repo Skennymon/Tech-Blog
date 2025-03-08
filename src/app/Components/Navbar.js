@@ -22,7 +22,6 @@ function Navbar() {
                 <button className="flex hover:cursor-pointer" onClick={() => setDropDown(!dropDown)}>
                     <Image src="/hamburger.svg" width={25} height={25} alt="Hamburger Icon"></Image>
                 </button>
-
             
                 <ul className={`flex flex-col border gap-4 w-56 absolute top-7 rounded-2xl items-start justify-center p-5 bg-gray-950 border-gray-600 shadow-gray-600 shadow transition-all duration-75 ease-in-out ${dropDown ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}>
                     <h2 className="font-extrabold">Categories</h2>
