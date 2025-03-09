@@ -11,7 +11,7 @@ function Navbar() {
         <div className="justify-evenly items-center flex p-8 bg-linear-to-b from-background from-95% to-stone-600">
             <div className="justify-center items-center flex gap-7">
                 <h2>Kenny Nguyen</h2>
-                <Link href="/">About</Link>
+                <Link href="/about">About</Link>
                 <a className="flex items-center justify-center" href="https://github.com/Skennymon" target="_blank">
                     <Image src="/github-logo.png" width={50} height={50} alt="Picture of github logo"/>
                     <h2>My Github</h2>

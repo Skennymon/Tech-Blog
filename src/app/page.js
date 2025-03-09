@@ -15,7 +15,7 @@ export default function Home() {
     {photo: "/Fifine.png", text: "Microphone", title: "Fifine K688", category: "Technology"},
     {photo: "/PC.png", text: "My pride and joy", title: "Main Computer", category: "Technology"},
     {photo: "/LG.png", text: "Main monitor", title: "LG 27GP850-B Ultragear Gaming Monitor", category: "Technology"},
-    {photo: "/Acer.png", text: "Acer S200HQL", title: "Generic Acer", category: "Technology"},
+    {photo: "/Acer.png", text: "Secondary monitor", title: "Acer S200HQL", category: "Technology"},
   ]);
 
   
