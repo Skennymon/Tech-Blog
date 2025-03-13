@@ -10,7 +10,7 @@ export default function Scene() {
         <div className="mt-5 h-96 flex">
             <Canvas>
                 <directionalLight intensity={8} position={[0,4,1]}/>
-                <Resize scale={10}>
+                <Resize scale={11}>
                     <primitive object={gltf.scene} position={[0, -1, 0]}/>
                 </Resize>
                 <OrbitControls autoRotate={true}/>
