@@ -7,15 +7,15 @@ import { useState } from 'react'
 export default function Home() {
 
   const[cards, setCards] = useState([
-    {photo: "/Airpods.png", text: "Earbuds", title: "Airpods Pro 2nd Gen", category: "Technology"},
-    {photo: "/Audio-Technica-M40.png", text: "Headphones", title: "Audio Technica M40", category: "Technology"},
-    {photo: "/KeyChron-C1.png", text: "Keyboard", title: "Keychron C1 Mechanical Keyboard", category: "Technology"},
-    {photo: "/Razer-Viper-Mini.png", text: "Mouse", title: "Razer Viper Mini", category: "Technology"},
-    {photo: "/XP-Pen.png", text: "Art", title: "XP-Pen DECO V1", category: "Technology"},
-    {photo: "/Fifine.png", text: "Microphone", title: "Fifine K688", category: "Technology"},
-    {photo: "/PC.png", text: "My pride and joy", title: "Main Computer", category: "Technology"},
-    {photo: "/LG.png", text: "Main monitor", title: "LG 27GP850-B Ultragear Gaming Monitor", category: "Technology"},
-    {photo: "/Acer.png", text: "Secondary monitor", title: "Acer S200HQL", category: "Technology"},
+    {photo: "/Airpods.png", text: "Earbuds", title: "Airpods Pro 2nd Gen", category: "Technology", url: "/posts/airpods-pro"},
+    {photo: "/Audio-Technica-M40.png", text: "Headphones", title: "Audio Technica M40", category: "Technology", url: "/"},
+    {photo: "/KeyChron-C1.png", text: "Keyboard", title: "Keychron C1 Mechanical Keyboard", category: "Technology", url: "/"},
+    {photo: "/Razer-Viper-Mini.png", text: "Mouse", title: "Razer Viper Mini", category: "Technology", url: "/"},
+    {photo: "/XP-Pen.png", text: "Art", title: "XP-Pen DECO V1", category: "Technology", url: "/"},
+    {photo: "/Fifine.png", text: "Microphone", title: "Fifine K688", category: "Technology", url: "/"},
+    {photo: "/PC.png", text: "My pride and joy", title: "Main Computer", category: "Technology", url: "/"},
+    {photo: "/LG.png", text: "Main monitor", title: "LG 27GP850-B Ultragear Gaming Monitor", category: "Technology", url: "/"},
+    {photo: "/Acer.png", text: "Secondary monitor", title: "Acer S200HQL", category: "Technology", url: "/"},
   ]);
 
   
@@ -28,12 +28,13 @@ export default function Home() {
 
         <article className="justify-center items-center flex flex-col gap-16">
           <div className="flex justify-center items-center mt-7 flex-wrap max-w-[25%]">
-            <h2>Hello, my name is Kenny and I&apos;m currently a 2nd year undergraduate student at SJSU. I&apos;m currently working on getting better as a full-stack engineer and I thought it would be pretty cool to make a blog page on the stuff I like to use on a day-to-day basis.</h2>
+            <p>Hello, my name is Kenny and I&apos;m currently a 2nd year undergraduate student at SJSU. 
+              I&apos;m currently working on getting better as a full-stack engineer and I thought it would be pretty cool to make a blog page on the stuff I like to use on a day-to-day basis.</p>
           </div>
           
           <div className="grid grid-cols-3 gap-20 w-[69%] border border-stone-800 rounded-4xl p-7 bg-stone-900">
             {cards.map((card, index) => (
-              <Card key={index} photo={card.photo} text={card.text} title={card.title} category={card.category}></Card>
+              <Card key={index} photo={card.photo} text={card.text} title={card.title} category={card.category} url={card.url}></Card>
             ))}
           </div>
         </article>
