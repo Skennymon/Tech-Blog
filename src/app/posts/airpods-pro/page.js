@@ -16,7 +16,7 @@ export default function Airpods() {
                         Airpods Pro Gen 2
                     </Link>
                     <p>The good ol&apos; earbuds that most of you guys probably already know. I bought these a couple years ago because my previous pair, &nbsp; 
-                        <Link href="https://www.amazon.com/Sony-WF-1000XM4-Industry-Canceling-Headphones/dp/B094C4VDJZ" target="_blank"><span className="underline font-bold">The Sony WF-1000XM4,</span></Link>
+                        <Link href="https://www.amazon.com/Sony-WF-1000XM4-Industry-Canceling-Headphones/dp/B094C4VDJZ" target="_blank"><span className="underline font-bold decoration-amber-700 hover:text-amber-700">The Sony WF-1000XM4,</span></Link>
                          &nbsp;hit the can after the battery died. In terms of sound quality, it does the job just fine, it&apos;s just not anything mind blowing in my opinion. The noise cancellation is excellent in my opinion because
                          of my experience of riding public transporation frequently to school. It completely blocks out any engine noise or people that may be talking near me. The noise transparency is good, but in my experience, it might
                          be a bit too good because I hear more of the evironment around me than my music.

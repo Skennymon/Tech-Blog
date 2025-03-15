@@ -11,15 +11,15 @@ function Navbar() {
         <div className="justify-evenly items-center flex p-8 bg-linear-to-b from-background from-95% to-stone-600">
             <div className="justify-center items-center flex gap-7">
                 <h2>Kenny Nguyen</h2>
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
+                <Link href="/" className="hover:text-amber-700">Home</Link>
+                <Link href="/about" className="hover:text-amber-700">About</Link>
                 <a className="flex items-center justify-center" href="https://github.com/Skennymon" target="_blank">
                     <Image src="/github-logo.png" width={50} height={50} alt="Picture of github logo"/>
-                    <h2>My Github</h2>
+                    <h2 className="hover:text-amber-700">My Github</h2>
                 </a>
             </div>
 
-            <div className="flex flex-col items-end justify-center relative">
+            <div className="flex flex-col items-end justify-center relative hover:bg-neutral-800">
                 <button className="flex hover:cursor-pointer" onClick={() => setDropDown(!dropDown)}>
                     <Image src="/hamburger.svg" width={25} height={25} alt="Hamburger Icon"></Image>
                 </button>
