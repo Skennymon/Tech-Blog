@@ -1,3 +1,4 @@
+'use client'
 import Scene from "../Components/Scene"
 import Image from "next/image"
 function About() {
