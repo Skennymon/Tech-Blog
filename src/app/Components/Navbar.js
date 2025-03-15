@@ -11,6 +11,7 @@ function Navbar() {
         <div className="justify-evenly items-center flex p-8 bg-linear-to-b from-background from-95% to-stone-600">
             <div className="justify-center items-center flex gap-7">
                 <h2>Kenny Nguyen</h2>
+                <Link href="/">Home</Link>
                 <Link href="/about">About</Link>
                 <a className="flex items-center justify-center" href="https://github.com/Skennymon" target="_blank">
                     <Image src="/github-logo.png" width={50} height={50} alt="Picture of github logo"/>
@@ -25,8 +26,8 @@ function Navbar() {
             
                 <ul className={`flex flex-col border gap-4 w-56 absolute top-7 rounded-2xl items-start justify-center p-5 bg-gray-950 border-gray-600 shadow-gray-600 shadow transition-all duration-75 ease-in-out z-1 ${dropDown ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}>
                     <h2 className="font-extrabold">Categories</h2>
-                    <Link href="/">Stuff</Link>
-                    <Link href="/">Stuff</Link>
+                    <Link href="/">TBD</Link>
+                    <Link href="/">TBD</Link>
                 </ul>
             
 

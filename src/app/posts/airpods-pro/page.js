@@ -7,7 +7,7 @@ export default function Airpods() {
             
             <section className="flex flex-col items-center justify-center w-[32%] gap-5">
                 <div className="border border-neutral-300 rounded-lg overflow-hidden w-[100%]">
-                    <Image src="/KennyWearingAirpods.png" alt="Kenny wearing airpods" width={1024} height={500}/>
+                    <Image src="/KennyWearingAirpods.png" alt="Kenny wearing Airpods" width={1024} height={500}/>
                 </div>
                 
                 <section className="flex flex-col items-start justify-start w-[100%] gap-5">

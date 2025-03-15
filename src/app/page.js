@@ -8,14 +8,14 @@ export default function Home() {
 
   const[cards, setCards] = useState([
     {photo: "/Airpods.png", text: "Earbuds", title: "Airpods Pro 2nd Gen", category: "Technology", url: "/posts/airpods-pro"},
-    {photo: "/Audio-Technica-M40.png", text: "Headphones", title: "Audio Technica M40", category: "Technology", url: "/"},
-    {photo: "/KeyChron-C1.png", text: "Keyboard", title: "Keychron C1 Mechanical Keyboard", category: "Technology", url: "/"},
-    {photo: "/Razer-Viper-Mini.png", text: "Mouse", title: "Razer Viper Mini", category: "Technology", url: "/"},
-    {photo: "/XP-Pen.png", text: "Art", title: "XP-Pen DECO V1", category: "Technology", url: "/"},
-    {photo: "/Fifine.png", text: "Microphone", title: "Fifine K688", category: "Technology", url: "/"},
-    {photo: "/PC.png", text: "My pride and joy", title: "Main Computer", category: "Technology", url: "/"},
-    {photo: "/LG.png", text: "Main monitor", title: "LG 27GP850-B Ultragear Gaming Monitor", category: "Technology", url: "/"},
-    {photo: "/Acer.png", text: "Secondary monitor", title: "Acer S200HQL", category: "Technology", url: "/"},
+    {photo: "/Audio-Technica-M40.png", text: "Headphones", title: "Audio Technica M40", category: "Technology", url: "/posts/audio-technica-m40x"},
+    {photo: "/KeyChron-C1.png", text: "Keyboard", title: "Keychron C1 Mechanical Keyboard", category: "Technology", url: "/posts/keychron-c1"},
+    {photo: "/Razer-Viper-Mini.png", text: "Mouse", title: "Razer Viper Mini", category: "Technology", url: "/posts/razer-viper-mini"},
+    {photo: "/XP-Pen.png", text: "Art", title: "XP-Pen DECO V1", category: "Technology", url: "/posts/xp-pen-deco-v3"},
+    {photo: "/Fifine.png", text: "Microphone", title: "Fifine K688", category: "Technology", url: "/posts/fifine"},
+    {photo: "/PC.png", text: "My pride and joy", title: "Main Computer", category: "Technology", url: "/posts/PC"},
+    {photo: "/LG.png", text: "Main monitor", title: "LG 27GP850-B Ultragear Gaming Monitor", category: "Technology", url: "/posts/LG"},
+    {photo: "/Acer.png", text: "Secondary monitor", title: "Acer S200HQL", category: "Technology", url: "/posts/acer"},
   ]);
 
   

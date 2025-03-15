@@ -8,7 +8,7 @@ function About() {
                 <Scene/>
             </section>
 
-            <article className="flex flex-col mt-7 items-center justify-center gap-7">
+            <article className="flex flex-col mt-7 items-center justify-center gap-7 mb-7">
                 <div className="flex bg-stone-800 w-[40%] h-24 rounded-md items-center justify-center p-7">
                     <h1 className="text-4xl">Hello, I&apos;m an aspiring FullStack Dev!</h1>
                 </div>
