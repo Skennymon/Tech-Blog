@@ -19,7 +19,7 @@ export default function LG() {
                         This monitor is pretty good for the price I got it for which was around $250. The 185hz is a night and day difference from my previous 75hz monitor and jumping from 1080p to 1440p was amazing.
                         The colors are pretty accurate in my unporfessional opinion. My biggest gripe with this monitor is that the contrast ratio is really bad (even for an IPS monitor). The blacks look very gray in dark scenes and the backlight bleed
                         is horrendous (especially if you like to game in darker environments). The backlight bleed in particular isn&apos;t too noticeable in a lit room, but it&apos;s very very noticeable in a dark room. I wouldn&apos;t recommend this
-                        if want the best picture quality for watching movies or playing single player games. Other than that, it&apos;s fine for my use case.
+                        if you want the best picture quality for watching movies or playing single player games. Other than that, it&apos;s fine for my use case.
                     </p>
 
                 </section>

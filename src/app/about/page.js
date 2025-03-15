@@ -23,7 +23,7 @@ function About() {
                 <section className="flex justify-between items-center h-auto w-[30%] mt-6 rounded-md relative">
                     <div className="flex flex-col justify-center items-start gap-3">
                         <h1 className="font-extrabold text-5xl"> Kenny Nguyen</h1>
-                        <h2>Aspiring FullStack / Tailwind / React / ExpressJS / Postgress/ MongoDB</h2>
+                        <h2>Aspiring FullStack / Tailwind / React / ExpressJS / Postgress / MongoDB</h2>
                     </div>
                     <div className="w-auto h-auto rounded-full border border-neutral-500 overflow-hidden">
                         <Image src="/Kenny_2.png" alt={"Kenny"} quality={100} width={300} height={300} objectPosition="top"/>
