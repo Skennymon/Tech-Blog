@@ -1,6 +1,12 @@
+// import Scene from "../Components/Scene"
 'use client'
-import Scene from "../Components/Scene"
 import Image from "next/image"
+import dynamic from 'next/dynamic'
+
+const Scene = dynamic(() => import('../Components/Scene'), {
+    ssr: false, // Ensures it's only rendered on the client-side
+  });
+
 function About() {
 
     return (
