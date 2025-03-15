@@ -26,7 +26,7 @@ export default function Home() {
           <h1 className="absolute text-8xl">Tech that I <span className="text-lime-300">Use</span></h1>
         </section>
 
-        <article className="justify-center items-center flex flex-col gap-16">
+        <article className="justify-center items-center flex flex-col gap-16 mb-7">
           <div className="flex justify-center items-center mt-7 flex-wrap max-w-[25%]">
             <p>Hello, my name is Kenny and I&apos;m currently a 2nd year undergraduate student at SJSU. 
               I&apos;m currently working on getting better as a full-stack engineer and I thought it would be pretty cool to make a blog page on the stuff I like to use on a day-to-day basis.</p>

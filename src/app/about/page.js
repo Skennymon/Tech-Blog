@@ -18,7 +18,7 @@ function About() {
                         <h1 className="font-extrabold text-5xl"> Kenny Nguyen</h1>
                         <h2>Aspiring FullStack / Tailwind / React / ExpressJS / Postgress/ MongoDB</h2>
                     </div>
-                    <div className="w-auto h-auto rounded-full border overflow-hidden">
+                    <div className="w-auto h-auto rounded-full border border-neutral-500 overflow-hidden">
                         <Image src="/Kenny_2.png" alt={"Kenny"} quality={100} width={300} height={300} objectPosition="top"/>
                     </div>
                 
@@ -37,11 +37,11 @@ function About() {
                 <section className="w-[30%] flex flex-col gap-4">          
                     <h1 className="text-4xl underline decoration-stone-700 font-extrabold">My Links</h1>
                     <a className="flex items-center gap-2" href="https://www.linkedin.com/in/kennyiscool/" target="_blank">
-                        <h2 className="font-bold">LinkedIn</h2>
+                        <h2 className="font-bold hover:text-amber-600">LinkedIn</h2>
                         <Image src="/LinkedIn_icon.svg.png" alt={"LinkedIn Photo"} height={25} width={25} quality={50}/>
                     </a>
                     <a className="flex items-center gap-2" href="https://github.com/Skennymon" target="_blank">
-                        <h2 className="font-bold">Github</h2>
+                        <h2 className="font-bold hover:text-amber-600">Github</h2>
                         <Image src="/github-logo.png" alt={"LinkedIn Photo"} height={25} width={25} quality={50}/>
                     </a>
                 </section>

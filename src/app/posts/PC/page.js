@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 export default function PC() {
     return (
-        <article className="flex items-center justify-center mt-7">
+        <article className="flex items-center justify-center mt-7 mb-7">
             
             <section className="flex flex-col items-center justify-center w-[32%] gap-5">
-                <div className="border border-neutral-300 rounded-lg overflow-hidden w-[100%]">
+                <div className="border border-neutral-500 rounded-lg overflow-hidden w-[100%]">
                     <Image src="/PC.png" alt="PC" width={1024} height={500}/>
                 </div>
                 

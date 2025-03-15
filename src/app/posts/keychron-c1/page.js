@@ -6,7 +6,7 @@ export default function KeychronC1() {
         <article className="flex items-center justify-center mt-7">
             
             <section className="flex flex-col items-center justify-center w-[32%] gap-5">
-                <div className="border border-neutral-300 rounded-lg overflow-hidden w-[100%]">
+                <div className="border border-neutral-500 rounded-lg overflow-hidden w-[100%]">
                     <Image src="/Keychron-C1_2.png" alt="Kenny wearing airpods" width={1024} height={500}/>
                 </div>
                 

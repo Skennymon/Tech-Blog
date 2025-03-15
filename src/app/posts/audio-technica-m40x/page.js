@@ -6,7 +6,7 @@ export default function AudioTechnicaM40x() {
         <article className="flex items-center justify-center mt-7">
             
             <section className="flex flex-col items-center justify-center w-[32%] gap-5">
-                <div className="border border-neutral-300 rounded-lg overflow-hidden w-[100%]">
+                <div className="border border-neutral-500 rounded-lg overflow-hidden w-[100%]">
                     <Image src="/KennyWearingM40.JPG" alt="Kenny wearing airpods" width={1024} height={500}/>
                 </div>
                 
