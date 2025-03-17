@@ -27,12 +27,12 @@ export default function Home() {
         </section>
 
         <article className="justify-center items-center flex flex-col gap-16 mb-7">
-          <div className="flex justify-center items-center mt-7 flex-wrap max-w-[25%]">
+          <div className="flex justify-center items-center mt-7 flex-wrap lg:w-[25%] md:w-[35%] sm:w-[45%]">
             <p>Hello, my name is Kenny and I&apos;m currently a 2nd year undergraduate student at SJSU. 
               I&apos;m currently working on getting better as a full-stack engineer and I thought it would be pretty cool to make a blog page on the stuff I like to use on a day-to-day basis.</p>
           </div>
           
-          <div className="grid grid-cols-3 gap-20 w-[69%] border border-stone-800 rounded-4xl p-7 bg-stone-900">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-20 w-[69%] border border-stone-800 rounded-4xl p-7 bg-stone-900">
             {cards.map((card, index) => (
               <Card key={index} photo={card.photo} text={card.text} title={card.title} category={card.category} url={card.url}></Card>
             ))}

@@ -17,10 +17,10 @@ function About() {
 
             <article className="flex flex-col mt-7 items-center justify-center gap-7 mb-7">
                 <div className="flex bg-stone-800 w-[40%] h-24 rounded-md items-center justify-center p-7">
-                    <h1 className="text-4xl">Hello, I&apos;m an aspiring FullStack Dev!</h1>
+                    <h1 className="lg:text-4xl md:text-2xl sm:text-xl">Hello, I&apos;m an aspiring FullStack Dev!</h1>
                 </div>
 
-                <section className="flex justify-between items-center h-auto w-[30%] mt-6 rounded-md relative">
+                <section className="flex justify-between items-center h-auto lg:w-[30%] md:w-[40%] sm:w-[50%] mt-6 rounded-md relative">
                     <div className="flex flex-col justify-center items-start gap-3">
                         <h1 className="font-extrabold text-5xl"> Kenny Nguyen</h1>
                         <h2>Aspiring FullStack / Tailwind / React / ExpressJS / Postgress / MongoDB</h2>
